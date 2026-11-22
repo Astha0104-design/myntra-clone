@@ -1,31 +1,83 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* top section */
+.top-section {
+    background-color: #ffffff;
+    padding: 20px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaec;
+}
 
-    .top-section {
-        background-color: #ffffff;
-        padding: 20px 4%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid #eaeaec;
-    }
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff3f6c;
+    text-decoration: none;
+}
 
-    .logo {
-        font-size: 24px;
-        font-weight: bold;
-        color: #ff3f6c;
-        text-decoration: none;
-    }
+.bag {
+    background-color: #ff3f6c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* bottom section */
+.bottom-section {
+    background-color: #fafbfc;
+    border-top: 1px solid #eaeaec;
+    padding: 40px 4% 20px;
+    margin-top: 60px;
+}
 
-    .bag {
-        background-color: #ff3f6c;
-        color: white;
-        padding: 5px 10px;
-        border-radius: 20px;
-        font-weight: bold;
-        font-size: 14px;
-    }
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 280px;
+}
+
+.footer-column h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #282c3f;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.footer-column a, .footer-column p {
+    text-decoration: none;
+    color: #696b79;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-column a:hover {
+    color: #282c3f;
+}
+
+.copyright {
+    max-width: 1000px;
+    margin: 30px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaec;
+    text-align: center;
+    color: #94969f;
+    font-size: 13px;
+}
