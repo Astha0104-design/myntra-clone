@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
 /* top section */
 .top-section {
     background-color: #ffffff;
@@ -29,6 +30,76 @@
     font-weight: bold;
     font-size: 14px;
 }
+
+/* main section */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #282c3f;
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 220px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 10px;
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.brand {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 14px;
+    color: #535766;
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #282c3f;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    width: 100%;
+    background-color: #ff3f6c;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-btn:hover {
+    background-color: #e6355f;
+}
+
 /* bottom section */
 .bottom-section {
     background-color: #fafbfc;
